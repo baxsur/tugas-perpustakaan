@@ -1,5 +1,3 @@
-import tambah_buku
-
 rak_buku = {}
 
 def daftar_buku():
@@ -7,14 +5,18 @@ def daftar_buku():
     # daftar buku bawaan
     rak_buku = {
     'buku1' : {
-    'judul':'filosofi ambatron',
-    'penulis':'jarwo',
+    'judul':'Filosofi Teras',
+    'penulis':'Hanry Manampiring',
+    'penerbit':'PT.Kompas Media Nusantara',
+    'kategori':'pengembangan diri',
     'tahun':'2019'
     },
     'buku2' : {
-    'judul':'entahlah',
-    'penulis':'fufufafa',
-    'tahun':'2024'
+    'judul':'DUNE',
+    'penulis':'Frank Herbert',
+    'penerbit':'Chilton Books',
+    'kategori':'Novel',
+    'tahun':'1965'
     }
     }
     
@@ -26,3 +28,5 @@ def daftar_buku():
     # untuk mencetak semua daftar buku yang ada pada rak_buku
     for key,info_buku in rak_buku_baru.items():
         print(f"{key+1}.{info_buku['judul']}")    
+
+daftar_buku()
