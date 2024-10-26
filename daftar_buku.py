@@ -27,7 +27,10 @@ def daftar_buku(rak_buku):
     print("      Daftar Buku")
     print("=======================")
 
-    #untuk memecah setiap main keys dan values pada rak_buku/rak_buku_baru
-    for main_keys,detail_buku in rak_buku_baru.items():
+    # main keys = key utama pada rak buku
+    # detail buku = value dari main keys
+    # detail buku[''] = value dari subkey,['judul'],['penulis'],dll
+    for main_keys,detail_buku in rak_buku_baru.items(): # untuk memecah setiap main keys dan values pada rak_buku/rak_buku_baru
         print(f"{main_keys+1}. {detail_buku['judul']}") #
+        
 
