@@ -22,8 +22,3 @@ def daftar_buku():
     print("\nDaftar Buku:")
     for key, info_buku in rak_buku.items():
         print(f"{key[-1]}. {info_buku['judul']}")
-
-    # tinggal nambahi kondisi tambah buku dan hapus buku
-    tambah_buku.tambah_buku(rak_buku)
-
-daftar_buku()
