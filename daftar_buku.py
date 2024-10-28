@@ -22,7 +22,6 @@ rak_buku = {
 def daftar_buku(rak_buku):
     # untuk mengubah main keys pada rak_buku agar menjadi angka berurutan(buku1:0,buku2:1,dan seterusnya....)
     rak_buku_baru = dict(zip(range(len(rak_buku)), rak_buku.values()))
-    os.system('cls')
     print("=======================")
     print("      Daftar Buku")
     print("=======================")
