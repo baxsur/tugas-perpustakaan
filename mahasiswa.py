@@ -18,10 +18,6 @@ def dashboard_mahasiswa():
         elif pilihan_mahasiswa == "2":
             detail_buku.mengembalikan()
         elif pilihan_mahasiswa == "0":
-            print("kembali ke menu utama")
+            break
         else:
             print("mohon masukan angka yang sesuai")
-
-    
-
-dashboard_mahasiswa()
