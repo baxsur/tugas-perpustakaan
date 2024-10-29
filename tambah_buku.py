@@ -34,5 +34,3 @@ def tambah_buku():
     daftar_buku(rak_buku) # untuk menampilkan daftar buku yang baru di update admin
 
 daftar_buku(rak_buku) # untuk menampilkan daftar buku bawaan 
-
-tambah_buku()
